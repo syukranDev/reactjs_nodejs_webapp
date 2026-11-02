@@ -1,0 +1,50 @@
+{
+  "dev": {
+    "host": "localhost:3000",
+    "saltRounds": 10,
+    "cookie": {
+      "secret": "change-me",
+      "tokenName": "app-token"
+    },
+    "db": {
+      "host": "localhost",
+      "port": 5432,
+      "user": "postgres",
+      "pass": "postgres",
+      "name": "webapp",
+      "timezone": "Asia/Kuala_Lumpur"
+    }
+  },
+  "local": {
+    "host": "localhost:3000",
+    "saltRounds": 10,
+    "cookie": {
+      "secret": "change-me",
+      "tokenName": "app-token"
+    },
+    "db": {
+      "host": "localhost",
+      "port": 5432,
+      "user": "postgres",
+      "pass": "postgres",
+      "name": "webapp",
+      "timezone": "Asia/Kuala_Lumpur"
+    }
+  },
+  "production": {
+    "host": "localhost:4222",
+    "saltRounds": 12,
+    "cookie": {
+      "secret": "change-me",
+      "tokenName": "app-token"
+    },
+    "db": {
+      "host": "localhost",
+      "port": 5432,
+      "user": "postgres",
+      "pass": "postgres",
+      "name": "webapp",
+      "timezone": "Asia/Kuala_Lumpur"
+    }
+  }
+}
